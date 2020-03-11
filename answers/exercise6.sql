@@ -1,1 +1,1 @@
-ADD birthday DATE NOT NULL;
+ALTER TABLE Users ADD COLUMN Birthday DATE;
