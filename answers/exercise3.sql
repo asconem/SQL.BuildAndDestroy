@@ -1,6 +1,7 @@
 CREATE TABLE Users(
-LastName varchar (255),
-FirstName varchar (255),
-Address varchar (255),
-City varchar (255),
+userId int,
+last_name VARCHAR (255) NOT NULL,
+first_name VARCHAR (255) NOT NULL,
+address VARCHAR (255) NOT NULL,
+city VARCHAR (255) NOT NULL
 );
